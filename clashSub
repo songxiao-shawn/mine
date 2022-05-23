@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","server":"198.23.236.232","name":"VirmachV","port":"53219","uuid":"d2e45238-d48b-4da3-b2bf-43489274676c","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"relay.gza.entrance1-fp.icu","name":"Virmach","port":"58866","uuid":"d2e45238-d48b-4da3-b2bf-43489274676c","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"45.144.2.73","name":"russiaV","port":"53219","uuid":"3820df87-15e9-449a-ae84-709a567f35d3","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"relay.gzbgp.entrance1-fp.icu","name":"Russia","port":"58858","uuid":"3820df87-15e9-449a-ae84-709a567f35d3","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"192.210.231.118","name":"RackNerdV","port":"53219","uuid":"0d89a456-ec36-48ee-a495-c44814ea84d3","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"183.240.124.144","name":"RackNerd","port":"56658","uuid":"0d89a456-ec36-48ee-a495-c44814ea84d3","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"45.14.65.180","name":"JapanV","port":"53219","uuid":"99cc4908-bc63-493d-b358-fd365b01674e","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","server":"183.240.124.144","name":"Japan","port":"26658","uuid":"99cc4908-bc63-493d-b358-fd365b01674e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"VirmachV","server":"198.23.236.232","port":"53219","uuid":"d2e45238-d48b-4da3-b2bf-43489274676c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Virmach","server":"relay.gza.entrance1-fp.icu","port":"58866","uuid":"d2e45238-d48b-4da3-b2bf-43489274676c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"russiaV","server":"45.144.2.73","port":"53219","uuid":"3820df87-15e9-449a-ae84-709a567f35d3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Russia","server":"relay.gzbgp.entrance1-fp.icu","port":"58858","uuid":"3820df87-15e9-449a-ae84-709a567f35d3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"RackNerdV","server":"192.210.231.118","port":"53219","uuid":"0d89a456-ec36-48ee-a495-c44814ea84d3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"RackNerd","server":"183.232.239.72","port":"56658","uuid":"0d89a456-ec36-48ee-a495-c44814ea84d3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"JapanV","server":"45.14.65.180","port":"53219","uuid":"99cc4908-bc63-493d-b358-fd365b01674e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Japan","server":"183.232.239.72","port":"26658","uuid":"99cc4908-bc63-493d-b358-fd365b01674e","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
